@@ -1,8 +1,10 @@
 #!/bin/bash
 #
-# https://github.com/Nyr/openvpn-install
+# https://github.com/KnallbertLp/openvpn-install
 #
-# Copyright (c) 2013 Nyr. Released under the MIT License.
+# forked from https://github.com/Nyr/openvpn-install
+#
+# Copyright (c) 2019 KnallbertLp Released under the MIT License.
 
 
 if grep -qs "14.04" /etc/os-release; then
