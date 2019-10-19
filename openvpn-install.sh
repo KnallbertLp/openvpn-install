@@ -301,9 +301,9 @@ LimitNPROC=infinity" > /etc/systemd/system/openvpn-server@server.service.d/disab
 	wget -O ~/easyrsa.tgz "$easy_rsa_url" 2>/dev/null || curl -Lo ~/easyrsa.tgz "$easy_rsa_url"
 	tar xzf ~/easyrsa.tgz -C ~/
 	mkdir -p /etc/openvpn/server
-	mv ~/EasyRSA-3.0.6/ /etc/openvpn/server/
+	mv ~/EasyRSA-v3.0.6/ /etc/openvpn/server/ 
 	mkdir -p /etc/openvpn/server/easy-rsa/
-	mv /etc/openvpn/server/EasyRSA-3.0.6/ /etc/openvpn/server/easy-rsa/
+	mv /etc/openvpn/server/EasyRSA-v3.0.6/ /etc/openvpn/server/easy-rsa/
 	chown -R root:root /etc/openvpn/server/easy-rsa/
 	rm -f ~/easyrsa.tgz
 	cd /etc/openvpn/server/easy-rsa/
