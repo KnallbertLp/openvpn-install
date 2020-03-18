@@ -14,4 +14,3 @@ Once it ends, you can run it again to add more users, remove some of them or eve
 
 If you want to show your appreciation, you can donate via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=6TWDCVP9F2Z7Y&source=url). Thanks!
 
-google-site-verification: google5d5233dc6acd2ccd.html
